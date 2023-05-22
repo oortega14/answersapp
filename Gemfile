@@ -14,6 +14,7 @@ gem 'jbuilder'
 gem 'redis', '~> 4.0'
 gem 'tzinfo-data', platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'bootsnap', require: false
+gem 'slim-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 6.0'
@@ -27,4 +28,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'shoulda-matchers', '~> 5.0'
 end
